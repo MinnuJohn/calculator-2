@@ -24,3 +24,14 @@ while True:
     if token[0] == 'q':
         print("Quit")
         break
+    
+    elif token[0] == "+":
+        print(add(float(token[1]), float(token[2])))
+    elif token[0] == "-":
+        print(subtract(float(token[1]), float(token[2])))
+    elif token[0] == "*":
+        print(multiply(float(token[1]), float(token[2])))
+    elif token[0] == "/":
+        print(divide(float(token[1]), float(token[2])))
+    elif token[0] == "cube":
+        print(cube(float(token[1]), float(token[2])))
