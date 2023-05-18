@@ -33,5 +33,11 @@ while True:
         print(multiply(float(token[1]), float(token[2])))
     elif token[0] == "/":
         print(divide(float(token[1]), float(token[2])))
+    elif token[0] == "square":
+        print(square(float(token[1])))
     elif token[0] == "cube":
-        print(cube(float(token[1]), float(token[2])))
+        print(cube(float(token[1])))
+    elif token[0] == "pow":
+        print(power(float(token[1]), float(token[2]))) 
+    elif token[0] == "mod":
+        print(mod(float(token[1]), float(token[2])))
